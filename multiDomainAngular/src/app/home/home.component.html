@@ -1,0 +1,16 @@
+<p>Welcome to the home!!! Please share your business name with us!!! To host quickly!!!</p>
+
+<form [formGroup]="businessDetailForm">
+    <div>
+        <label>Enter your email:</label><input type="email" formControlName="userEmail">
+    </div>
+    <div>
+        <label>Enter your business name:</label><input type="text" formControlName="userBusinessName">
+    </div>
+    <div>
+        <button type="submit" (click)="onSubmitForm()">Submit</button>
+    </div> 
+</form>
+
+
+
