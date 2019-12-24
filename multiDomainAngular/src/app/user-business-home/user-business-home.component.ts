@@ -9,8 +9,8 @@ import { ApiCallService } from '../api-call.service';
 })
 export class UserBusinessHomeComponent implements OnInit {
 
-  private userId; 
-  private userData;
+  public userId; 
+  public userData;
   constructor(public router: Router, private route: ActivatedRoute, public apiService: ApiCallService) { }
 
   ngOnInit() {
